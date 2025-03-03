@@ -54,23 +54,26 @@ const Navbar = ({ theme, setTheme }) => {
                   </a>
                 </li>
               ))}
-              {theme === "dark" ? (
-                <BiSolidSun
-                  onClick={() =>setTheme("light")}
-                  className="text-2xl"
-                  
-                />
-              ) : (
-                <BiSolidMoon
-                  onClick={() => setTheme("dark")}
-                  className="text-2xl"
-                />
-              )}
+              {theme == "dark" ? (
+              <BiSolidSun
+                onClick={() => {setTheme("light")
+                  console.log(theme)
+                }}
+                className="text-2xl"
+              />
+            ) : (
+              <BiSolidMoon
+                onClick={() => setTheme("dark")}
+                className="text-2xl"
+              />
+            )}
             </ul>
           </nav>
 
           {/* mobile view */}
           <div className="flex items-center gap-4 md:hidden">
+          
+          
             {theme == "dark" ? (
               <BiSolidSun
                 onClick={() => setTheme("light")}
