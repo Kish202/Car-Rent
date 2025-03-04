@@ -7,6 +7,9 @@ import Hero from './components/Hero/Hero';
 // import toast, { Toaster } from 'react-hot-toast';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Footer from './components/Footer/Footer';
+import Services from './components/Services/Services';
+import Contact from './components/Contact/Contact';
 
 function App() {
 const [theme, setTheme] = useState(
@@ -43,7 +46,10 @@ else {
   return (
                         <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
        <Navbar theme={theme} setTheme={setTheme}/>
-  <Hero theme={theme}/>     
+  <Hero theme={theme}/> 
+<Services/>
+ <Contact/>
+  <Footer/>    
    </div>
   )
 }

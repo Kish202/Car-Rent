@@ -43,7 +43,7 @@ data-aos-delay="1500"
 onClick={()=>{
   AOS.refreshHard(); 
 }}
-className="rounded-md bg-primary hover:bg-primary/80 transition duration-500 py-2 px-6 text-black">
+className="rounded-md bg-primary hover:bg-primary/80 transition duration-500 py-1 px-4 text-black">
   Get Started
 </button>
 </div>
