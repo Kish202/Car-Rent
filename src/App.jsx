@@ -10,7 +10,11 @@ import "aos/dist/aos.css";
 import Footer from './components/Footer/Footer';
 import Services from './components/Services/Services';
 import Contact from './components/Contact/Contact';
-
+import CarList from './components/CarList/CarList';
+import Testimonal from './components/Testimonal/Testimonal';
+import Experience from './components/Experience/Experience';
+import AppSToreBanner from './components/AppSToreBanner/AppSToreBanner';
+import About from './components/about/About';
 function App() {
 const [theme, setTheme] = useState(
 localStorage.getItem("theme")?localStorage.getItem("theme"):"light"
@@ -47,8 +51,15 @@ else {
                         <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
        <Navbar theme={theme} setTheme={setTheme}/>
   <Hero theme={theme}/> 
+ <About/>
+  <AppSToreBanner/>
 <Services/>
+
+ <CarList/>
+
+ <Experience/>
  <Contact/>
+ <Testimonal/>
   <Footer/>    
    </div>
   )
