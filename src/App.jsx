@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import './App.css'
 import Navbar from './components/Navbar/Navbar';
    import { useEffect, useState } from 'react';
@@ -48,7 +48,7 @@ else {
 
 
   return (
-                        <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
+                        <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden gap-2">
        <Navbar theme={theme} setTheme={setTheme}/>
   <Hero theme={theme}/> 
  <About/>

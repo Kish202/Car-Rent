@@ -27,19 +27,26 @@ function Testimonal() {
       <span id="about"></span>
       <div className="dark:bg-black dark:text-white py-14 sm:pb-24">
 
-        <div className="container">
-<div className="space-y-6 pb-12" >
-       <p     data-aos="fade-up"
-       className="text-3xl font-semibold text-center sm:text-4xl font-mono ">
+        <div className="container min-w-full p-0">
+<div className="pb-12 px-0 min-w-full bg-yellow-500 rounded-t-xl " >
+       
+        <p     data-aos="fade-up"
+       className="text-2xl font-bold text-center sm:text-3xl font-mono">
         What Our Clients Say about us.
+ 
         </p  > 
 
-        <p data-aos="fade-up" className="text-center sm:px-44">
+
+        </div>
+<div className="font-semibold sm:text-2xl p-6 flex">
+        <p data-aos="fade-up" className="flext justify-start max-sm:text-left pr-10  sm:px-44">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, 
-            reprehenderit. Distinctio voluptatum debitis repellat, consequatur, voluptatem officia culpa iure quos voluptates, 
+            reprehenderit. Distinctio voluptatum debitis repellat, consequatur, iure quos voluptates, 
             soluta itaque dolor labore nobis? Hic magnam aperiam fugiat.
             
-            </p>    
+            </p>
+        
+           
 
 </div>        </div>
 

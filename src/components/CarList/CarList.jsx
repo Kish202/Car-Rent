@@ -19,7 +19,7 @@ const carList = [
       name: "BMW UX",
       price: 100,
       image: car3,
-      aosDelay: "1000",
+      aosDelay: "700",
     },
   ];
 
@@ -32,13 +32,13 @@ function CarList() {
      <h1
      
      data-aos="fade-up"
-     className="text-3xl sm:text-4xl font-semibold font-serif mb-3"
+     className="text-3xl sm:text-4xl font-semibold font-serif mb-3 sm:mb-6"
      >
         Lorem ipsum sit
         </h1>   
        
        
-       <p data-aos="fade-up" aos-delay="400" clasName="text-sm pb-10">
+       <p data-aos="fade-up" aos-delay="400" className="text-sm pb-10 font-semibold">
         
        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem 
        consequuntur aperiam quia consectetur voluptates voluptas tenetur ex iusto, eum optio culpa voluptate eaque?
@@ -61,7 +61,7 @@ function CarList() {
                   <img
                     src={data.image}
                     alt=""
-                    className="w-full h-[120px] object-contain sm:translate-x-8 group-hover:sm:translate-x-16 duration-700"
+                    className="w-full h-[120px] object-contain sm:translate-x-8 group-hover:sm:translate-x-16 duration-700 drop-shadow-[1px_7px_5px_rgba(0,0,0,0.50)]"
                   />
                 </div>
                 <div className="space-y-2">
@@ -84,8 +84,8 @@ function CarList() {
 
   <div className="grid place-items-center mt-8"> 
 
-   <button  data-aos="fade-up" className="button-outline">
- GET Start
+   <button  data-aos="zoom-in" className="button-outline font-semibold hover:shadow-xl hover:shadow-yellow-500">
+ GET SET GO
 
    </button>
 

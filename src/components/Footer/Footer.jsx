@@ -28,11 +28,11 @@ const FooterLinks = [
 
 function Footer() {
   return (
-    <div className="bg-gray-100 dark:bg-dark mt-14 rounded-t-3xl">
-      <section className="container">
-        <div className="grid md:grid-cols-3 py-5">
-          <div className="py-8 px-4">
-            <h1 className="small-text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3 font-serif">
+    <div className="bg-gray-300 dark:bg-dark mt-14 rounded-t-3xl  flex justify-center">
+      <section className="container             ">
+        <div className="grid md:grid-cols-3 py-5 md:px-10 ">
+          <div className="py-8 px-4   ">
+            <h1 className="small-text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex  items-center gap-3 font-serif">
               Car Rent
             </h1>
             <p className="text-sm">
@@ -70,40 +70,48 @@ function Footer() {
 
           {/* links */}
 
-          <div className="grid grid-cols-3 sm:grid-cols-3  col-span-2 md:pl-10">
-            <div className="">
-              <div className="py-8 px-4">
+          <div className="grid grid-cols-3 sm:grid-cols-3  col-span-2 sm:pl-10 ">
+            <div className="md:pl-10">
+              <div className="py-8 px-4 ">
                 <h1 className="text-xl font-bold sm:text-left text-justify mb-3">
                   Important Links
                 </h1>
                 <ul className="flex flex-col gap-3">
                   {FooterLinks.map((link) => (
-                    <li key={link.id} className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-500 dark:text-gray-200 ">
+                    <li key={link.id} className="cursor-pointer hover:translate-x-1 duration-300  text-gray-500 dark:text-gray-200  ">
+                     
+                     
+                     <span className="space-x-1 hover:!text-primary cursor-pointer">
                       <span>&#11162;</span>
+                   
                       <span>{link.title}</span>
+                   </span>
                     </li>
                   ))}
                 </ul>
               </div>
             </div>
 
-            <div className="">
-              <div className="py-8 px-4">
+            <div className=" md:pl-10">
+              <div className="py-8 px-4 ">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
                   Links
                 </h1>
-                <ul className="flex flex-col gap-3">
+                <ul className="flex flex-col sm:text-left gap-3">
                   {FooterLinks.map((link) => (
-                    <li key={link.id} className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-500  dark:text-gray-200">
+                    <li key={link.id} className=" text-gray-500 hover:translate-x-1 duration-300 dark:text-gray-200">
+                      <span className="space-x-1 hover:!text-primary cursor-pointer">
                       <span>&#11162;</span>
+                   
                       <span>{link.title}</span>
+                   </span >
                     </li>
                   ))}
                 </ul>
               </div>
             </div>
 
-            <div className="">
+            <div className="md:pl-10">
               <div className="py-8 px-4">
                 <h1 className="text-xl font-bold sm:text-left text-justify mb-3">
                   Location
@@ -112,9 +120,13 @@ function Footer() {
                 {/* <ul className="list-disc list-inside "> */}
                 <ul className="flex flex-col gap-3">
                   {FooterLinks.map((link) => (
-                    <li key={link.id} className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-500  dark:text-gray-200">
+                    <li key={link.id} className="cursor-pointer hover:translate-x-1 duration-300   text-gray-500  dark:text-gray-200">
+                     
+                 <span className="space-x-1 hover:!text-primary cursor-pointer"> 
                       <span>&#11162;</span>
                       <span>{link.title}</span>
+
+                      </span>
                     </li>
                   ))}
                 </ul>

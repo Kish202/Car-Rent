@@ -10,10 +10,10 @@ return (
  <div       data-aos="zoom-in" className="dark:bg-black   dark:text-white p-14" >  
     <div className="container ">
     
-    <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 bg-gray-700 py-8 px-6 rounded-lg">
+    <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 bg-gray-700 hover:bg-gray-300 dark:bg-yellow-500 py-8 px-6 rounded-lg">
     <div className="col-span-2 space-y-3">
- <h1 className="">
-  collaborate on your upcoming car rental venture
+ <h1 className="font-serif text-2xl">
+  Collaborate on your upcoming car rental venture
  
  </h1>   
  <p>
@@ -27,7 +27,7 @@ return (
    <div className="sm:grid sm:place-items-center  ">
   
 
-<a href="#" className="flex justify-center font-semibold py-2 px-6 bg-primary text-white hover:bg-primary/80 duration-200 tracking-widest uppercase rounded-lg">
+<a href="#" className="flex justify-center font-semibold py-2 px-3 sm:py-2 sm:px-6  bg-primary text-white hover:bg-primary/80 duration-200 tracking-widest uppercase rounded-lg">
   Contact
 </a>
    </div>
