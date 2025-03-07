@@ -2,6 +2,8 @@
 
 Welcome to the **Car Rent Website** frontend project! This project showcases a sleek and modern car rental website built with **React** and styled using **Tailwind CSS**, with **AOS (Animate On Scroll)** added for smooth animations.
 
+  ## LIVE: https://rent-it-taupe.vercel.app/
+
 ## 🚀 Tech Stack
 - **React**: Component-based frontend library.
 - **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
@@ -11,7 +13,7 @@ Welcome to the **Car Rent Website** frontend project! This project showcases a s
 
 1. **Clone the repository:**
 ```bash
-git clone <repo-link>
+git clone https://github.com/Kish202/Car-Rent.git
 ```
 
 2. **Install dependencies:**
@@ -38,9 +40,6 @@ http://localhost:5173
 - **Reusable Components**: Modular components for easy scalability.
 
 
-
-
-
 ## 📦 Deployment
 To build the project for production:
 ```bash
@@ -58,4 +57,4 @@ The output will be in the `dist/` folder, ready to be deployed.
 Pull requests are welcome! If you have any suggestions for improvements, feel free to open an issue.
 
 
-## LIVE: https://rent-it-taupe.vercel.app/
+
