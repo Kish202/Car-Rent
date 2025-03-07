@@ -14,12 +14,7 @@ Welcome to the **Car Rent Website** frontend project! This project showcases a s
 git clone <repo-link>
 ```
 
-2. **Navigate to the project directory:**
-```bash
-cd car rent
-```
-
-3. **Install dependencies:**
+2. **Install dependencies:**
 ```bash
 npm install
 ```
@@ -63,4 +58,4 @@ The output will be in the `dist/` folder, ready to be deployed.
 Pull requests are welcome! If you have any suggestions for improvements, feel free to open an issue.
 
 
-https://rent-it-taupe.vercel.app/
+## LIVE: https://rent-it-taupe.vercel.app/
